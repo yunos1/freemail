@@ -7,11 +7,15 @@ compatibility_date = "2024-01-01"
 [[d1_databases]]
 binding = "TEMP_MAIL_DB"
 database_name = "maill_free_db" #你的d1数据库名称
-database_id = "c82663ac-62b6-4ba6-be81-cbe297f2a3dd" # 你的database_id
+database_id = "d247e3ca-22e2-419c-bcd5-e3f0571c267d" # 你的database_id
 
 # 环境变量
 [vars]
-
+MAIL_DOMAIN = "你的域名.com，域名2.cn" #可以多个 以英文逗号分隔
+ADMIN_NAME = "admin" # 超级管理员用户名 （不配名称 默认为admin）
+ADMIN_PASSWORD = "adminPwd123" # 超级管理员密码
+JWT_TOKEN = "token" # 随便一串字符串
+RESEND_API_KEY = "re_fBKx5Xoo_P4fjYUiTxjkdikL2aroqwjts" # 发送邮件需要配置
 
 # 静态资源目录（Workers + Assets）
 [assets]
