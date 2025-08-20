@@ -11,7 +11,7 @@ database_id = "d247e3ca-22e2-419c-bcd5-e3f0571c267d" # 你的database_id
 
 # 环境变量
 [vars]
-MAIL_DOMAIN = "faster.eu.cc" #可以多个 以英文逗号分隔
+MAIL_DOMAIN = "fasterless.dpdns.org" #可以多个 以英文逗号分隔
 ADMIN_NAME = "admin" # 超级管理员用户名 （不配名称 默认为admin）
 ADMIN_PASSWORD = "adminPwd123" # 超级管理员密码
 JWT_TOKEN = "token" # 随便一串字符串
