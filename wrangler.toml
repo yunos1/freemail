@@ -11,11 +11,11 @@ database_id = "d247e3ca-22e2-419c-bcd5-e3f0571c267d" # 你的database_id
 
 # 环境变量
 [vars]
-MAIL_DOMAIN = "fasterless.dpdns.org,emailbox.de5.net" #可以多个 以英文逗号分隔
+MAIL_DOMAIN = "fasterless.dpdns.org" #可以多个 以英文逗号分隔 emailbox.de5.net
 ADMIN_NAME = "admin" # 超级管理员用户名 （不配名称 默认为admin）
 ADMIN_PASSWORD = "adminPwd123" # 超级管理员密码
 JWT_TOKEN = "token" # 随便一串字符串
-RESEND_API_KEY = "re_fBKx5Xoo_P4fjYUiTxjkdikL2aroqwjts" # 发送邮件需要配置
+RESEND_API_KEY = "re_EG2YuHVe_HdVbBoxNuaKvi1YNfywi5VVR" # 发送邮件需要配置 re_fBKx5Xoo_P4fjYUiTxjkdikL2aroqwjts
 
 # 静态资源目录（Workers + Assets）
 [assets]
